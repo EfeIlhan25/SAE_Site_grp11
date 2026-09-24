@@ -4,7 +4,7 @@
 
 ## Sujet    
 
-[Nom du projet](https://login.github.io/projet/)
+[](https://login.github.io/projet/)
 
 ## Membres du groupe :
 
