@@ -9,9 +9,9 @@
 ## Membres du groupe :
 
 Etudiant 1 (référent du groupe) :  [Nom du référent du groupe](mailto:@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
-Etudiant 2 : [Nom](mailto:wkerrara@edu.univ-fcomte.fr?subject=SAE_1_05_06)   
-Etudiant 3 : [Nom](mailto:eilhan3@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
-Etudiant 4 : [Nom](mailto:nkalachy@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
-Etudiant 5 : [Nom](mailto:selourdi@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
+Etudiant 2 : [Kerrara Wassim](mailto:wkerrara@edu.univ-fcomte.fr?subject=SAE_1_05_06)   
+Etudiant 3 : [Ilhan Efe](mailto:eilhan3@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
+Etudiant 4 : [Kalachyan Norik](mailto:nkalachy@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
+Etudiant 5 : [Lourdi Salah-eddine](mailto:selourdi@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
 
 # Présentation du projet
