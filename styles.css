@@ -314,8 +314,6 @@ footer {
     font-size: 12px;
 }
 
-/******************* Mises en page de presentation *******************/
-
 .presentation {
     max-width: 1100px;
     margin: 0 auto; 
@@ -365,21 +363,6 @@ footer {
     border: 2px solid #B4D1DB; 
     border-radius: 4px;
     display: block;
-}
-.btn-outline {
-    padding: 12px 28px;
-    background: #FFFFFF;
-    color: #5F64C6;
-    border: 2px solid #5F64C6;
-    border-radius: 30px;
-    font-family: "Rublk", "Rublik", sans-serif;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s ease;
-    
-    /* --- LES DEUX LIGNES À AJOUTER --- */
-    width: auto;
-    height: auto;
 }
 /*******************************************************/
 /* Sur petit écran, on simplifie la navigation en haut */
