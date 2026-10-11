@@ -97,12 +97,48 @@
       </aside>
 
     </div>
+    <section id="formulaire">
+  <h2>ÉCRIVEZ-NOUS</h2>
+  <form action="#" method="post" style="max-width:600px; margin:0 auto; text-align:left;">
+
+    <p>
+      <label for="nom">Nom</label><br>
+      <input type="text" id="nom" name="nom" required style="width:100%;">
+    </p>
+
+    <p>
+      <label for="email">Adresse e-mail</label><br>
+      <input type="email" id="email" name="email" required style="width:100%;">
+    </p>
+
+    <p>
+      <label for="message">Message</label><br>
+      <textarea id="message" name="message" rows="6" required style="width:100%;"></textarea>
+    </p>
+
+    <p>
+      <button type="submit" class="btn-outline">ENVOYER</button>
+    </p>
+
+  </form>
+</section>
+    <section>
+  <h2>Envie d'en savoir plus sur nos activités ?</h2>
+  <p>Découvrez nos services, nos innovations et nos engagements envers les joueurs.</p>
+  <button type="button" class="btn-outline" onclick="location.href='activites.html'">VOIR NOS ACTIVITÉS</button>
+</section>
 
   </div>
 
 </main>
 
 
+
+Pour pouvoir l’expliquer :
+
+    id="formulaire" est la cible des liens #formulaire de tes boutons.
+    label for="nom" est relié au champ qui a id="nom". Cliquer sur le texte active le champ.
+    type="email" vérifie automatiquement qu’il y a un @. required empêche d’envoyer un champ vide.
   
   
   
