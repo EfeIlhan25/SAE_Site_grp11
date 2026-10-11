@@ -337,14 +337,13 @@ footer {
 }
 
 
-.bloc-texte {
-    flex: 1; 
-    text-align: left; 
+.bloc-texte, .bloc-image {
+    flex: 1 1 50%; 
+    max-width: 50%;
 }
 
-.bloc-image {
-    flex: 1;
-    
+.bloc-texte {
+    text-align: left; 
 }
 
 
