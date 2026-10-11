@@ -160,6 +160,9 @@ body {
 
     cursor: pointer;
     transition: 0.3s ease;
+
+    width: auto;
+    height: auto;
 }
 
 .btn-outline:hover {
