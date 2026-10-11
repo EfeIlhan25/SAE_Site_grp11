@@ -363,6 +363,79 @@ footer {
     border-radius: 4px;
     display: block;
 }
+/* --- SECTION SUCCÈS MONDIAUX --- */
+.section-succes {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.titre-section {
+    font-size: 26px;
+    color: #111118;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.conteneur-cartes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.titre-carte {
+    font-size: 18px;
+    margin: 10px 0 15px;
+}
+
+/* --- BANNIÈRE CHIFFRES CLÉS --- */
+.banniere-chiffres {
+    margin-top: 80px;
+    background: linear-gradient(135deg, #5F64C6, #8270A4);
+    padding: 50px 20px;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.chiffre-bloc {
+    text-align: center;
+}
+
+.chiffre-valeur {
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.chiffre-label {
+    font-size: 16px;
+}
+
+/* --- CALL TO ACTION (CTA) --- */
+.section-cta {
+    margin-top: 60px;
+    text-align: center;
+    padding: 40px;
+}
+
+.titre-cta {
+    font-size: 24px;
+    color: #111118;
+    margin-bottom: 10px;
+}
+
+.texte-cta {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.lien-cta {
+    text-decoration: none;
+}
 /*******************************************************/
 /* Sur petit écran, on simplifie la navigation en haut */
 @media (max-width: 950px) {
