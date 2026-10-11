@@ -311,7 +311,59 @@ footer {
     font-size: 12px;
 }
 
+/******************* Mises en page de presentation *******************/
 
+.presentation {
+    max-width: 1100px;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction:column-reverse;
+    gap: 60px; 
+    background-color: #FFFFFF;
+}
+
+
+.bloc-alternatif {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 40px;
+}
+
+
+.bloc-alternatif.inverse {
+    flex-direction: row-reverse;
+}
+
+
+.bloc-texte {
+    flex: 1; 
+    text-align: left; 
+}
+
+.bloc-image {
+    flex: 1;
+    
+}
+
+
+.bloc-texte h2 {
+    font-size: 26px;
+    text-transform:uppercase;
+    color: #111118;
+    margin-bottom: 20px;
+}
+.img-placeholder {
+    width: 100%;
+    height: auto;
+    max-height: 350px; 
+    object-fit: cover; 
+    background-color: #e0e0e0;
+    border: 2px solid #B4D1DB; 
+    border-radius: 4px;
+    display: block;
+}
+/*******************************************************/
 /* Sur petit écran, on simplifie la navigation en haut */
 @media (max-width: 950px) {
     .navigation {
