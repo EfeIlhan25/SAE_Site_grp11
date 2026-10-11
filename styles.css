@@ -310,67 +310,7 @@ footer {
     color: #F1F0FA;
     font-size: 12px;
 }
-/*pour la presentation*/
-.conteneur-wireframe {
-    /* Limite la largeur pour ne pas écraser les bords sur grand écran */
-    max-width: 1100px;
-    margin: 0 auto; 
-    padding: 40px 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 60px; /* Espace entre la section 1 et la section 2 */
-}
 
-/* Flexbox pour aligner le texte et l'image côte à côte */
-.bloc-alternatif {
-    display: flex;
-    align-items: center; /* Centre verticalement */
-    justify-content: space-between;
-    gap: 40px;
-}
-
-/* L'astuce S1 : on inverse le sens de flexbox pour la 2ème section */
-.bloc-alternatif.inverse {
-    flex-direction: row-reverse;
-}
-
-/* On donne 50% de la place au texte et 50% à l'image */
-.bloc-texte, .bloc-image {
-    flex: 1; 
-}
-
-.bloc-texte h2 {
-    font-size: 26px;
-    text-transform: uppercase;
-    color: #111118;
-    margin-bottom: 20px;
-}
-
-.bloc-texte p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #333;
-    margin-bottom: 30px;
-}
-
-/* Style de l'image pour imiter le carré du wireframe */
-.img-placeholder {
-    width: 100%;
-    height: auto;
-    min-height: 250px;
-    background-color: #e0e0e0; /* Fond gris si l'image ne charge pas */
-    border: 2px solid #B4D1DB; /* Reprend la couleur de votre charte */
-    border-radius: 4px;
-    display: block;
-}
-
-/* Responsivité (Mobile) : on remet tout en colonne sur petits écrans */
-@media (max-width: 800px) {
-    .bloc-alternatif, 
-    .bloc-alternatif.inverse {
-        flex-direction: column;
-    }
-}
 
 /* Sur petit écran, on simplifie la navigation en haut */
 @media (max-width: 950px) {
