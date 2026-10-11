@@ -1,48 +1,83 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Accueil</title>
-
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+<body data-page="accueil">
 
-<body>
+  <header>
+      <a class="logo" href="accueil.html">UBISOFT</a>
 
-    <header>
-        <h1>SAE_Site_grp11</h1>
+      <nav class="navigation">
+          <a href="accueil.html" data-page="accueil">Accueil</a>
+          <a href="presentation.html" data-page="presentation">Présentation de l'entreprise</a>
+          <a href="activites.html" data-page="activites">Activités et services</a>
+          <a href="economie.html" data-page="economie">Économie et chiffres clés</a>
+          <a href="contact.html" data-page="contact">Informations pratiques / Contact</a>
+      </nav>
 
-        <nav>
-            <a href="index.html">Accueil</a>
-            <a href="page1.html">Présentation</a>
-            <a href="page2.html">Projet</a>
-            <a href="page3.html">Contact</a>
-            <a href="page4.html">économie</a>
-        </nav>
-    </header>
+      
+      <input type="checkbox" id="ouvrir-menu">
 
-    <main>
-        <h2>Bienvenue sur notre site</h2>
+      <label for="ouvrir-menu" class="bouton-burger">
+        ☰
+      </label>
 
-        <p>
-            Bienvenue sur le site de notre projet de SAE.
-            Ce site présente notre projet, nos objectifs et les différentes
-            étapes de sa réalisation.
-        </p>
+      <nav class="menu">
+        <a href="accueil.html">Accueil</a>
+        <a href="presentation.html">Présentation de l'entreprise</a>
+        <a href="activites.html">Activités et services</a>
+        <a href="economie.html">Économie et chiffres clés</a>
+        <a href="contact.html">Informations pratiques / Contact</a>
+      </nav>
 
-        <p>
-            Vous pouvez utiliser le menu ci-dessus pour consulter
-            les différentes pages de notre site.
-        </p>
-    </main>
+  </header>
 
-    <footer>
-        <p>Site réalisé par Nizar Lamaaizi</p>
+<!-- Remplacez ce contenu par le contenu propre à chaque page. -->
+  <main>
+      <p>Contenu de la page à ajouter ici.</p>
+  </main>
+
+  <footer>
+      <div class="footer-colonne">
+          <h2>UBISOFT</h2>
+          <p>Retrouvez nos actualités et nos informations pratiques.</p>
+          <h3>Réseaux sociaux</h3>
+          <a href="https://www.facebook.com/Ubisoft/">Facebook</a>
+          <a href="https://x.com/Ubisoft">X</a>
+          <a href="https://www.instagram.com/ubisoft/">Instagram</a>
+          <a href="https://www.youtube.com/user/Ubisoft">YouTube</a>
+      </div>
+
+      <div class="footer-colonne">
+          <h3>Navigation</h3>
+          <a href="accueil.html">Accueil</a>
+          <a href="presentation.html">Présentation de l'entreprise</a>
+          <a href="activites.html">Activités et services</a>
+          <a href="economie.html">Économie et chiffres clés</a>
+          <a href="contact.html">Informations pratiques / Contact</a>
+      </div>
+
+      <div class="footer-colonne" id="contact">
+          <h3>Contact</h3>
+          <a href="contact.html">Nous contacter</a>
+          <a href="contact.html#support">Support et assistance</a>
+          <a href="mailto:contact@example.com">Envoyer un e-mail</a>
+      </div>
+
+      <div class="footer-colonne">
+          <h3>Informations légales</h3>
+          <a href="mentions-legales.html">Mentions légales</a>
+          <a href="confidentialite.html">Politique de confidentialité</a>
+          <a href="cookies.html">Gestion des cookies</a>
+      </div>
+
+      <div class="bas-footer">
+          <p>© 2026 Ubisoft — Tous droits réservés.</p>
+      </div>
     </footer>
-
 </body>
-
 </html>
