@@ -567,6 +567,15 @@ main {
     border-radius: 4px;
     box-sizing: border-box;
 }
+.img-placeholder1 {
+    width: 100%;
+    aspect-ratio: 16 / 9; /* Force une proportion rectangulaire harmonieuse */
+    object-fit: cover; /* Empêche l'image de s'écraser ou se déformer */
+    background-color: #e0e0e0;
+    border: 2px solid #B4D1DB; 
+    border-radius: 4px;
+    display: block;
+}
 @media (max-width: 950px) {
     .navigation {
         display: none;
