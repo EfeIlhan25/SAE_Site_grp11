@@ -570,6 +570,176 @@ main {
 }
 /***************** CSS : ACCUEIL/INDEX ******************/
 
+
+
+@font-face {
+    font-family: "Rublik";
+    src: url("fonts/Rubik-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body[data-page="accueil"] {
+    margin: 0;
+    padding: 16px;
+    font-family: "Rublik", sans-serif;
+    background: #FFFFFF;
+}
+
+body[data-page="accueil"] header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 18px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    color: white;
+    background: linear-gradient(90deg, #111118, #5F64C6, #8270A4);
+    border-bottom: 3px solid #B4D1DB;
+}
+
+body[data-page="accueil"] main {
+    min-height: 55vh;
+    padding: 50px 25px;
+    text-align: center;
+    background: #F4F3F8;
+    max-width: none;
+    margin: 0;
+}
+
+body[data-page="accueil"] footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    padding: 45px 30px 20px;
+    color: white;
+    background: linear-gradient(135deg, #111118, #28243B, #5F64C6);
+    border-top: 3px solid #B4D1DB;
+    max-width: none;
+    margin: 0;
+}
+
+body[data-page="accueil"] .accueil-btn-outline {
+    padding: 12px 28px;
+    background: #FFFFFF;
+    color: #5F64C6;
+    border: 2px solid #5F64C6;
+    border-radius: 30px;
+    font-family: "Rublik", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    width: auto;
+    height: auto;
+}
+
+body[data-page="accueil"] .accueil-btn-outline:hover {
+    background: #5F64C6;
+    color: #FFFFFF;
+}
+
+body[data-page="accueil"] .accueil-logo {
+    color: white;
+    font-size: 26px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+body[data-page="accueil"] .accueil-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+body[data-page="accueil"] .accueil-navigation a {
+    padding: 8px 0;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+body[data-page="accueil"] .accueil-navigation a.actif {
+    border-bottom: 3px solid #B4D1DB;
+    color: #B4D1DB;
+}
+
+body[data-page="accueil"] #ouvrir-menu { display: none; }
+
+body[data-page="accueil"] .accueil-bouton-burger {
+    display: block;
+    font-size: 35px;
+    color: white;
+    width: fit-content;
+}
+
+body[data-page="accueil"] .accueil-menu {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+body[data-page="accueil"] #ouvrir-menu:checked ~ .accueil-menu {
+    display: flex;
+}
+
+body[data-page="accueil"] .accueil-menu a {
+    color: black;
+    text-decoration: none;
+    font-family: "Rublik", sans-serif;
+    padding: 8px;
+}
+
+body[data-page="accueil"] .accueil-menu a:hover {
+    text-decoration: underline;
+}
+
+body[data-page="accueil"] .accueil-footer-colonne {
+    display: flex;
+    flex: 1 1 180px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+body[data-page="accueil"] .accueil-footer-colonne h2,
+body[data-page="accueil"] .accueil-footer-colonne h3 {
+    margin: 0 0 8px;
+    color: white;
+}
+
+body[data-page="accueil"] .accueil-footer-colonne p {
+    max-width: 260px;
+    color: #F1F0FA;
+    line-height: 1.5;
+}
+
+body[data-page="accueil"] .accueil-footer-colonne a {
+    color: #F1F0FA;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+body[data-page="accueil"] .accueil-footer-colonne a:hover {
+    color: #B4D1DB;
+    text-decoration: underline;
+}
+
+body[data-page="accueil"] .accueil-bas-footer {
+    width: 100%;
+    margin-top: 15px;
+    padding-top: 18px;
+    border-top: 1px solid #B4D1DB;
+    color: #F1F0FA;
+    font-size: 12px;
+}
+
+/***************** CSS : ACCUEIL/INDEX ******************/
+
 .accueil-contenu-page {
     display: grid;
     grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr);
@@ -810,6 +980,9 @@ main {
     font-weight: bold;
     color: #5F64C6;
 }
+
+
+
 
 @media (max-width: 950px) {
     .navigation {
