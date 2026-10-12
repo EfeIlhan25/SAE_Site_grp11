@@ -473,6 +473,72 @@ footer {
     display: block;
     object-fit: contain;
 }
+
+/* =========================================
+   PAGE CONTACT - MISE EN PAGE 
+   ========================================= */
+
+/* Conteneur principal (Flexbox) */
+.conteneur-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+/* Colonne de gauche (infos pratiques et accès) */
+.colonne-gauche {
+  flex: 2 1 560px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Encadrés standards (infos, accès) */
+.bloc-contact {
+  border: 1px solid #B4D1DB;
+  padding: 20px;
+}
+
+/* Colonne de droite (Support) */
+#support {
+  flex: 1 1 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+}
+
+/* Encadrés pour chaque type de support */
+.article-support {
+  border: 1px solid #B4D1DB;
+  padding: 20px;
+}
+
+/* =========================================
+   FORMULAIRE DE CONTACT*/
+
+.formulaire-contact {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.formulaire-contact input[type="text"],
+.formulaire-contact input[type="email"],
+.formulaire-contact textarea {
+  width: 100%;
+  padding: 8px; /* Optionnel : Ajoute un peu d'espace à l'intérieur des champs */
+  margin-top: 5px;
+  box-sizing: border-box; /* Évite que le padding ne fasse déborder le champ à plus de 100% */
+}
+
+/* Espacement pour la dernière section */
+.section-activites {
+  margin-top: 40px;
+  text-align: center;
+}
 /* Sur petit écran, on simplifie la navigation en haut */
 @media (max-width: 950px) {
     .navigation {
