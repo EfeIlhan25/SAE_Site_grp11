@@ -583,7 +583,8 @@ main {
     gap: 40px;
 }
 .bloc-texte1, .bloc-image1 {
-    flex: 1;
+    flex: 1 1 50%; 
+    max-width: 50%;
 }
 @media (max-width: 950px) {
     .navigation {
