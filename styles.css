@@ -569,8 +569,8 @@ main {
 }
 .img-placeholder1 {
     width: 100%;
-    aspect-ratio: 16 / 9; /* Force une proportion rectangulaire harmonieuse */
-    object-fit: cover; /* Empêche l'image de s'écraser ou se déformer */
+    aspect-ratio: 16 / 9; 
+    object-fit: cover; 
     background-color: #e0e0e0;
     border: 2px solid #B4D1DB; 
     border-radius: 4px;
