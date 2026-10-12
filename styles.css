@@ -440,6 +440,7 @@ footer {
 .card .cover {
     position: relative;
     overflow: hidden;
+    aspect-ratio: 1 / 1; /* INDISPENSABLE : force l'image à être un carré parfait */
     z-index: 1;
 }
 
@@ -450,17 +451,27 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Permet à l'image de remplir l'espace sans se déformer */
-    z-index: -1; /* Place l'image derrière le texte */
-    filter: brightness(0.5); /* Assombrit légèrement l'image pour que le texte blanc reste lisible */
+    object-fit: cover; /* L'image remplit l'espace sans se déformer */
+    z-index: -1;
+    /* J'ai supprimé le filtre brightness pour garder les belles couleurs de vos images */
 }
 
-/* On s'assure que le texte dans "cover" ressort bien */
-.card .cover h2, 
+/* Style du petit numéro en haut à droite */
 .card .cover .number {
-    position: relative;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #000;
     color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    border: 1px solid white; /* Le petit liseré blanc autour du cadre noir */
     z-index: 2;
+}
+
+/* On masque le titre H2 car il n'y en a pas sur les images de votre maquette */
+.card .cover h2 {
+    display: none;
 }
 /*******************ECONOMIE************************************/
 .conteneur-graphiques {
