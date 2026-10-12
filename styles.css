@@ -437,6 +437,42 @@ footer {
     text-decoration: none;
 }
 /*******************************************************/
+.conteneur-graphiques {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.carte-graphique {
+    flex: 1 1 450px; /* Assure une largeur de base suffisante */
+    max-width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #B4D1DB;
+    border-radius: 8px;
+    padding: 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Règle essentielle pour que les images restent dans leur cadre et ne se superposent pas */
+.image-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
 /* Sur petit écran, on simplifie la navigation en haut */
 @media (max-width: 950px) {
     .navigation {
