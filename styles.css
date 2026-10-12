@@ -478,68 +478,59 @@ footer {
    PAGE CONTACT - MISE EN PAGE 
    ========================================= */
 
-/* Conteneur principal (Flexbox) */
+/* =========================================
+   PAGE CONTACT - MISE EN PAGE 
+   ========================================= */
+
+/* --- Layout Principal (Grille/Flexbox) --- */
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
 .conteneur-contact {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  align-items: flex-start;
-  margin-bottom: 40px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
-/* Colonne de gauche (infos pratiques et accès) */
 .colonne-gauche {
-  flex: 2 1 560px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+    flex: 2;
+    min-width: 300px;
 }
 
-/* Encadrés standards (infos, accès) */
-.bloc-contact {
-  border: 1px solid #B4D1DB;
-  padding: 20px;
-}
-
-/* Colonne de droite (Support) */
 #support {
-  flex: 1 1 280px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  text-align: left;
-}
-
-/* Encadrés pour chaque type de support */
-.article-support {
-  border: 1px solid #B4D1DB;
-  padding: 20px;
+    flex: 1;
+    min-width: 300px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    height: fit-content;
 }
 
 /* =========================================
    FORMULAIRE DE CONTACT*/
 
-.formulaire-contact {
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: left;
+/* --- Formulaire --- */
+#formulaire {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-top: 40px;
 }
 
-.formulaire-contact input[type="text"],
-.formulaire-contact input[type="email"],
+.formulaire-contact input, 
 .formulaire-contact textarea {
-  width: 100%;
-  padding: 8px; /* Optionnel : Ajoute un peu d'espace à l'intérieur des champs */
-  margin-top: 5px;
-  box-sizing: border-box; /* Évite que le padding ne fasse déborder le champ à plus de 100% */
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
-
-/* Espacement pour la dernière section */
-.section-activites {
-  margin-top: 40px;
-  text-align: center;
-}
-/* Sur petit écran, on simplifie la navigation en haut */
 @media (max-width: 950px) {
     .navigation {
         display: none;
