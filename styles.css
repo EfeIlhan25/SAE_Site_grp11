@@ -776,7 +776,7 @@ footer {
     text-decoration: underline;
 }
 
-.accueil-contenu-page .accueil-btn-outline {
+.accueil-contenu-page {
     display: inline-block;
     margin-top: 4px;
     line-height: 1.4;
