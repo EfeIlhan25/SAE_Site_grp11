@@ -439,21 +439,23 @@ footer {
 /* Positionnement de la couverture pour accueillir l'image */
 .card .cover {
     position: relative;
-    overflow: hidden;
-    aspect-ratio: 1 / 1; /* INDISPENSABLE : force l'image à être un carré parfait */
+    width: 100%; /* Force le conteneur à prendre exactement la largeur de la carte */
+    margin: 0; /* Supprime toute marge par défaut */
+    padding: 0;
+    overflow: hidden; /* Coupe tout ce qui dépasse */
+    aspect-ratio: 1 / 1;
     z-index: 1;
 }
 
-/* Style de l'image pour qu'elle remplisse la vignette */
 .card .image-carte {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* L'image remplit l'espace sans se déformer */
+    object-fit: cover;
+    display: block; /* Évite les petits espaces blancs sous les images */
     z-index: -1;
-    /* J'ai supprimé le filtre brightness pour garder les belles couleurs de vos images */
 }
 
 /* Style du petit numéro en haut à droite */
