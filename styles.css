@@ -567,25 +567,7 @@ main {
     border-radius: 4px;
     box-sizing: border-box;
 }
-.img-placeholder1 {
-    width: 100%;
-    aspect-ratio: 16 / 9; 
-    object-fit: cover; 
-    background-color: #e0e0e0;
-    border: 2px solid #B4D1DB; 
-    border-radius: 4px;
-    display: block;
-}
-.bloc-alternatif1{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 40px;
-}
-.bloc-texte1, .bloc-image1 {
-    flex: 1 1 50%; 
-    max-width: 50%;
-}
+
 @media (max-width: 950px) {
     .navigation {
         display: none;
