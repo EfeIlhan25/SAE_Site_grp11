@@ -270,7 +270,7 @@ footer {
     gap: 35px;
     padding: 45px 30px 20px;
     color: white;
-    background: linear-gradient(135deg, #111118, #28243B, #5F64C6);
+    background: linear-gradient(135deg, #5F64C6, #8270A4 55%, #8BA4F0);
     border-top: 3px solid #B4D1DB;
 }
 
@@ -391,7 +391,7 @@ footer {
 /* --- BANNIÈRE CHIFFRES CLÉS --- */
 .banniere-chiffres {
     margin-top: 80px;
-    background: linear-gradient(135deg, #5F64C6, #8270A4);
+    background: linear-gradient(135deg, #5F64C6, #8270A4 55%, #8BA4F0);
     padding: 50px 20px;
     color: white;
     border-radius: 8px;
