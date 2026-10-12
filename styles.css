@@ -513,7 +513,9 @@ footer {
 /* =========================================
    PAGE CONTACT - MISE EN PAGE 
    ========================================= */
-
+.bloc-image1{
+    flex: 1;
+}
 
 
 /* --- Layout Principal (Grille/Flexbox) --- */
