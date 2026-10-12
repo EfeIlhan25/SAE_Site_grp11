@@ -520,7 +520,7 @@ footer {
 
 
 /* --- Layout Principal (Grille/Flexbox) --- */
-main {
+.contact-main {
     max-width: 1200px;
     margin: 40px auto;
     padding: 0 20px;
