@@ -28,10 +28,17 @@ Pour la réalisation de ce site consacré à Ubisoft, nous avons opté pour une 
 
 ## Répartition du travail
 
-La charge de travail a été répartie de manière équitable tout au long du projet[cite: 2]. Chaque membre du groupe était responsable du développement complet (HTML/CSS) d'une page spécifique, tout en participant aux tâches transversales (planification, soutenance, relectures) :
+La charge de travail a été répartie au  mieux selon les compétences de chacun tout au long du projet[cite: 2]. Chaque membre du groupe était responsable du développement complet (HTML/CSS) d'une page spécifique :
 
-* **Nizar Lamaaizi (Référent) :** Gestion de projet, création du dépôt GitHub, structure de base (index.html), développement de la **Page 1 (Accueil)**, tests de validation W3C et rédaction finale du README[cite: 2].
-* **Efe Ilhan :** Élaboration des questionnaires clients et développement de la **Page 2 (Présentation de l'entreprise)**[cite: 2].
+* **Nizar Lamaaizi (Référent) :** Gestion de projet, création du questionnaire client 2, création du planning, , structure de base (index.html), développement de la **Page 1 (Accueil)**, tests de validation W3C et rédaction finale du README[cite: 2].
+* **Efe Ilhan :** Création du dépôt GitHub, Élaboration questionnaire 1 et développement de la **Page 2 (Présentation de l'entreprise)**[cite: 2].
 * **Wassim Kerrara :** Développement de la **Page 3 (Activités et services)** et participation à l'intégration HTML/CSS[cite: 2].
 * **Salah-Eddine Lourdi :** Développement de la **Page 4 (Économie et chiffres clés)**, remplissage du fichier ODS et création des représentations graphiques de l'entreprise[cite: 2].
 * **Norik Kalachyan :** Développement de la **Page 5 (Informations pratiques / contact)** et recherche des contenus/données pour la partie économique[cite: 2].
+
+
+## Test et Validation
+
+* **Nizar LAMAAIZI (Référent) :** "liens vers le validator : https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fsae-site-grp11-950e45.gitlab.io%2Findex.html"
+<img width="1449" height="674" alt="image" src="https://github.com/user-attachments/assets/b1ce3c74-d377-4249-ad5e-04acd96ae396" />  
+
