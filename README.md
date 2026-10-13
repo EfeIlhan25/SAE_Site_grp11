@@ -28,10 +28,10 @@ Pour la réalisation de ce site consacré à Ubisoft, nous avons opté pour une 
 
 ## Répartition du travail
 
-La charge de travail a été répartie au  mieux selon les compétences de chacun tout au long du projet[cite: 2]. Chaque membre du groupe était responsable du développement complet (HTML/CSS) d'une page spécifique :
+La charge de travail a été répartie au  mieux selon les compétences de chacun tout au long du projet. Chaque membre du groupe était responsable du développement complet (HTML/CSS) d'une page spécifique :
 
-* **Nizar Lamaaizi (Référent) :** Gestion de projet, création du questionnaire client 2, création du planning, , structure de base (index.html), élaboration des éléments en commun du site, développement de la **Page 1 (Accueil)**, tests de validation W3C et rédaction finale du README[cite: 2].
-* **Efe Ilhan :** Création du dépôt GitHub, Hébergement du site sur toutes les plateformes demandées, Élaboration questionnaire 1 ainsi que de tout les wireframes et développement de la **Page 2 (Présentation de l'entreprise)**[cite: 2].
+* **Nizar Lamaaizi (Référent) :** Gestion de projet, création du questionnaire client 2, création du planning, , structure de base (index.html), élaboration des éléments en commun du site, développement de la **Page 1 (Accueil)**, tests de validation W3C et rédaction finale du README.
+* **Efe Ilhan :** Création du dépôt GitHub, Hébergement du site sur toutes les plateformes demandées, Élaboration questionnaire 1 ainsi que de tout les wireframes et développement de la **Page 2 (Présentation de l'entreprise)**.
 * **Wassim Kerrara :** Développement de la **Page 3 (Activités et services)**.
 * **Salah-Eddine Lourdi :** Développement de la **Page 4 (Économie et chiffres clés)**.
 * **Norik Kalachyan :** Développement de la **Page 5 (Informations pratiques / contact)** et recherche des contenus/données pour la partie économique/informative, élaboration de la soutenance et du planning rétroactif.
