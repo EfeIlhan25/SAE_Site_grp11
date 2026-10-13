@@ -28,7 +28,7 @@ Pour la réalisation de ce site consacré à Ubisoft, nous avons opté pour une 
 
 ## Répartition du travail
 
-La charge de travail a été répartie au  mieux selon les compétences de chacun tout au long du projet. Chaque membre du groupe était responsable du développement complet (HTML/CSS) d'une page spécifique :
+La charge de travail a été répartie au  mieux selon les compétences de chacun tout au long du projet. Chaque membre du groupe était responsable du développement partiel (HTML/CSS) d'une page spécifique :
 
 * **Nizar Lamaaizi (Référent) :** Gestion de projet, création du questionnaire client 2, création du planning, , structure de base (index.html), élaboration des éléments en commun du site, développement de la **Page 1 (Accueil)**, tests de validation W3C et rédaction finale du README.
 * **Efe Ilhan :** Création du dépôt GitHub, Hébergement du site sur toutes les plateformes demandées, Élaboration questionnaire 1 ainsi que de tout les wireframes et développement de la **Page 2 (Présentation de l'entreprise)**.
