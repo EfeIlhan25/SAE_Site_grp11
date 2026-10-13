@@ -30,15 +30,40 @@ Pour la réalisation de ce site consacré à Ubisoft, nous avons opté pour une 
 
 La charge de travail a été répartie au  mieux selon les compétences de chacun tout au long du projet[cite: 2]. Chaque membre du groupe était responsable du développement complet (HTML/CSS) d'une page spécifique :
 
-* **Nizar Lamaaizi (Référent) :** Gestion de projet, création du questionnaire client 2, création du planning, , structure de base (index.html), développement de la **Page 1 (Accueil)**, tests de validation W3C et rédaction finale du README[cite: 2].
-* **Efe Ilhan :** Création du dépôt GitHub, Élaboration questionnaire 1 et développement de la **Page 2 (Présentation de l'entreprise)**[cite: 2].
-* **Wassim Kerrara :** Développement de la **Page 3 (Activités et services)** et participation à l'intégration HTML/CSS[cite: 2].
-* **Salah-Eddine Lourdi :** Développement de la **Page 4 (Économie et chiffres clés)**, remplissage du fichier ODS et création des représentations graphiques de l'entreprise[cite: 2].
-* **Norik Kalachyan :** Développement de la **Page 5 (Informations pratiques / contact)** et recherche des contenus/données pour la partie économique[cite: 2].
+* **Nizar Lamaaizi (Référent) :** Gestion de projet, création du questionnaire client 2, création du planning, , structure de base (index.html), élaboration des éléments en commun du site, développement de la **Page 1 (Accueil)**, tests de validation W3C et rédaction finale du README[cite: 2].
+* **Efe Ilhan :** Création du dépôt GitHub, Hébergement du site sur toutes les plateformes demandées, Élaboration questionnaire 1 ainsi que de tout les wireframes et développement de la **Page 2 (Présentation de l'entreprise)**[cite: 2].
+* **Wassim Kerrara :** Développement de la **Page 3 (Activités et services)**.
+* **Salah-Eddine Lourdi :** Développement de la **Page 4 (Économie et chiffres clés)**.
+* **Norik Kalachyan :** Développement de la **Page 5 (Informations pratiques / contact)** et recherche des contenus/données pour la partie économique/informative, élaboration de la soutenance et du planning rétroactif.
 
 
 ## Test et Validation
 
 * **Nizar LAMAAIZI (Référent) :** "liens vers le validator : https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fsae-site-grp11-950e45.gitlab.io%2Findex.html"
-<img width="1449" height="674" alt="image" src="https://github.com/user-attachments/assets/b1ce3c74-d377-4249-ad5e-04acd96ae396" />  
+<img width="1449" height="674" alt="image" src="https://github.com/user-attachments/assets/b1ce3c74-d377-4249-ad5e-04acd96ae396" />
+<img width="1534" height="1015" alt="image" src="https://github.com/user-attachments/assets/d00cbc57-8acc-44a0-81d2-f2936c28b5f4" />
+
+
+* **Efe Ilhan :** "liens vers le validator : https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fsae-site-grp11-950e45.gitlab.io%2Fpresentation.html"
+<img width="1288" height="469" alt="image" src="https://github.com/user-attachments/assets/f0e8ad43-e13a-4db7-a71f-840d9641e380" />
+<img width="1522" height="1007" alt="image" src="https://github.com/user-attachments/assets/0cf0ee64-56ed-4e6f-a9e0-99548528808c" />
+
+
+* **Wassim Kerrara :** "liens vers le validator : https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fefeilhan25.github.io%2FSAE_Site_grp11%2Factivites.html"
+<img width="1439" height="1079" alt="image" src="https://github.com/user-attachments/assets/346519aa-2a03-416c-896d-9e4ed38f6a13" />
+<img width="1437" height="1030" alt="image" src="https://github.com/user-attachments/assets/40be43ca-537c-4498-9609-45a94799da75" />
+
+
+
+* **Salah-Eddine Lourdi :** "liens vers le validator : https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fefeilhan25.github.io%2FSAE_Site_grp11%2Feconomie.html"
+<img width="1823" height="695" alt="image" src="https://github.com/user-attachments/assets/b386918d-0a76-4238-8197-2fb644d7e001" />
+<img width="1489" height="1040" alt="image" src="https://github.com/user-attachments/assets/5da98554-433f-4b89-a4d7-2350ca40fc9c" />
+
+
+
+* **Norik Kalachyan :** "liens vers le validator : https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fefeilhan25.github.io%2FSAE_Site_grp11%2Fcontact.html"
+<img width="1163" height="483" alt="image" src="https://github.com/user-attachments/assets/ec197344-4031-47b9-8b45-85c6de49cc3a" />
+<img width="1420" height="1045" alt="image" src="https://github.com/user-attachments/assets/bfc9ccba-a4a9-4284-81ba-0adf86299d5c" />
+
+
 
