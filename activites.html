@@ -1,44 +1,37 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Activités et services</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activités et services - Ubisoft</title>
+    <link rel="stylesheet" href="sourcesUbisoft.css">
 </head>
-<body data-page="Activités et services">
+<body data-page="activites">
 
-  <header>
-      <a class="logo" href="index.html">UBISOFT</a>
+    <header>
+        <a class="logo" href="index.html">UBISOFT</a>
 
-      <nav class="navigation">
-          <a href="index.html" data-page="accueil">Accueil</a>
-          <a href="presentation.html" data-page="presentation">Présentation de l'entreprise</a>
-          <a href="activites.html" data-page="activites">Activités et services</a>
-          <a href="economie.html" data-page="economie">Économie et chiffres clés</a>
-          <a href="contact.html" data-page="contact">Informations pratiques / Contact</a>
-      </nav>
+        <nav class="navigation" aria-label="Navigation principale">
+            <a href="index.html" data-page="accueil">Accueil</a>
+            <a href="presentation.html" data-page="presentation">Présentation de l'entreprise</a>
+            <a href="activites.html" class="actif" data-page="activites" aria-current="page">Activités et services</a>
+            <a href="economie.html" data-page="economie">Économie et chiffres clés</a>
+            <a href="contact.html" data-page="contact">Informations pratiques / Contact</a>
+        </nav>
 
-      
-      <input type="checkbox" id="ouvrir-menu">
+        <input type="checkbox" id="ouvrir-menu">
+        <label for="ouvrir-menu" class="bouton-burger" aria-label="Ouvrir le menu">☰</label>
 
-      <label for="ouvrir-menu" class="bouton-burger">
-        ☰
-      </label>
+        <nav class="menu" aria-label="Navigation mobile">
+            <a href="index.html">Accueil</a>
+            <a href="presentation.html">Présentation de l'entreprise</a>
+            <a href="activites.html" aria-current="page">Activités et services</a>
+            <a href="economie.html">Économie et chiffres clés</a>
+            <a href="contact.html">Informations pratiques / Contact</a>
+        </nav>
+    </header>
 
-      <nav class="menu">
-        <a href="index.html">Accueil</a>
-        <a href="presentation.html">Présentation de l'entreprise</a>
-        <a href="activites.html">Activités et services</a>
-        <a href="economie.html">Économie et chiffres clés</a>
-        <a href="contact.html">Informations pratiques / Contact</a>
-      </nav>
-
-  </header>
-
-<!-- Remplacez ce contenu par le contenu propre à chaque page. -->
-   <section class="introduction">
+    <section class="introduction">
         <h1 class="titre-page">Activités et services</h1>
         <p class="description-page">
             Ubisoft imagine, développe et édite des jeux vidéo. L'entreprise propose
