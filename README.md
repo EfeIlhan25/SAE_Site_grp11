@@ -65,5 +65,11 @@ La charge de travail a été répartie au  mieux selon les compétences de chacu
 <img width="1163" height="483" alt="image" src="https://github.com/user-attachments/assets/ec197344-4031-47b9-8b45-85c6de49cc3a" />
 <img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/bfc9ccba-a4a9-4284-81ba-0adf86299d5c" />
 
+## les Contributeurs
+
+<img src="resources/contributeur_v_final.png" alt="Statistiques des contributeurs" width="800">
+
+
+
 
 
